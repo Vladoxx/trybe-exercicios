@@ -1,0 +1,4 @@
+    1  history -w
+    2  clear
+    3  head -5 skills.txt
+    4  history > exercicio_2.txt
