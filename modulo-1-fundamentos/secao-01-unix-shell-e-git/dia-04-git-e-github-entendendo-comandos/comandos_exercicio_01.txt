@@ -1,0 +1,71 @@
+    1  history -w
+    2  history -w
+    3  ls -al ~/.ssh
+    4  ssh-keygen -t ed25519 -C "wladimirkochmansky@gmail.com"
+    5  eval "$(ssh-agent -s)"
+    6  ls
+    7  cd Music/
+    8  gi clone git@github.com:Vladoxx/BeAcademy_FromZeroToHero_ProjetoFinal.git
+    9  git clone git@github.com:Vladoxx/BeAcademy_FromZeroToHero_ProjetoFinal.git
+   10  git clone git@github.com:Vladoxx/trybe-exercicios.git
+   11  git remote -v
+   12  git clone git@github.com:Vladoxx/trybe-exercicios.git
+   13  ls
+   14  cd trybe-exercicios/
+   15  ls
+   16  cd modulo-1-fundamentos/
+   17  ls
+   18  cd secao-01-unix-shell-e-git/
+   19  ls
+   20  git branch
+   21  git branch all
+   22  git pull
+   23  git status
+   24  git add .
+   25  git status
+   26  git commit -m "Mundando arquivo de comandos de  pasta"
+   27  git push
+   28  git branch -b removendo-arquivos
+   29  git checkout remove-arquivos
+   30  git branch remove-arquivos
+   31  git brach
+   32  git branch
+   33  git checkout remove-arquivos
+   34  ls
+   35  cd secao-01-unix-shell-e-git/
+   36  ls
+   37  cd dia-02-unix-e-shell-parte2/
+   38  ls
+   39  cd ..
+   40  ls
+   41  git status
+   42  git add .
+   43  git status
+   44  git commit -m "Removendo arquivos .gitkeep"
+   45  git push origin remove-arquivos
+   46  git push
+   47  git push origin remove-arquivos
+   48  git checkout main
+   49  git pull
+   50  git status
+   51  head -30
+   52  history head -30
+   53  history &&  head -30
+   54  history &&  head -20
+   55  history &&  head
+   56  history tail -30
+   57  history tail 30
+   58  history tails 30
+   59  man tail
+   60  history tail 20
+   61  history && tail 20
+   62  history && tail -20
+   63  history && tail 20
+   64  ls
+   65  cd modulo-1-fundamentos/
+   66  ls
+   67  cd secao-01-unix-shell-e-git/
+   68  ls
+   69  cd dia-04-git-e-github-entendendo-comandos/
+   70  ls
+   71  history > comandos_exercicio_01.txt
