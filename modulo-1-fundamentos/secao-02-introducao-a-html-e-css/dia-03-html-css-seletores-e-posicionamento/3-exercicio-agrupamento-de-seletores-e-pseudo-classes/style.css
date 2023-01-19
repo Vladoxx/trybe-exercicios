@@ -1,0 +1,68 @@
+/* Exercicio 1 - Agrupando Seletores */
+h1, p {
+    text-align: center;
+}
+
+ol li:hover {
+    background: #f30909;
+}
+
+ol li:active {
+    color: #ffffff;
+}
+
+ol, ul {
+    list-style: none
+}
+
+/* Exercicio 2 - Pseudo-classes */
+div:hover {
+    border: 2px solid #a0bb0a;
+}
+
+div:nth-of-type(1) {
+    background: yellow;
+}
+
+div:nth-of-type(2) {
+    background: blue;
+}
+
+div:nth-of-type(3) {
+    height: 180px;
+    background: red;
+}
+
+div:nth-of-type(4) {
+    background: green;
+}
+
+div:nth-of-type(5) {
+    background: violet;
+}
+
+div:nth-of-type(1) > h3 {
+    font-size: 16px;    
+}
+
+div:nth-of-type(2) > h3 {
+    font-size: 18px;    
+}
+
+div:nth-of-type(3) > h3 {
+    font-size: 20px;    
+}
+
+div:nth-of-type(4) > h3 {
+    font-size: 22px;    
+}
+
+div:nth-of-type(5) > h3 {
+    font-size: 24px;    
+}
+
+div:nth-child(odd) h3 {
+    font-style: italic
+  }
+
+
