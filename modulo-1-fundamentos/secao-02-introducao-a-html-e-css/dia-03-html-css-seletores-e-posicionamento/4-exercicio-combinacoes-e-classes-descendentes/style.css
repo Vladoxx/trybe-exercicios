@@ -1,0 +1,72 @@
+.lista-ordenada {
+    background: yellow;
+}
+
+.par li:nth-child(even)  {
+    color: green;
+}
+
+.impar li:nth-child(odd) {
+    text-transform: uppercase;
+}
+ .titulo {
+    color: red;
+ }
+
+ .italico {
+    font-size: 40px;
+    border: 1px solid black;
+ }
+
+ li {
+    font-size: 20px;
+ }
+
+ li em {
+    font-weight: 700;
+ }
+
+.linguagens-de-programacao li:nth-child(1) {
+    color: blue;
+}
+
+.linguagens-de-programacao li:nth-child(2) {
+    color: blue;
+    background: pink;
+}
+
+.linguagens-de-programacao li:nth-child(3) {
+    color: blue;
+}
+
+.maiores-aliados li {
+    /* list-style: none; */
+}
+
+.maiores-aliados li a {
+    text-decoration: none;
+}
+
+.maiores-aliados li a:hover {
+    font-weight: 900;
+}
+
+.maiores-aliados li a[href*="stackoverflow"] {
+    color: orange;
+}
+
+.maiores-aliados li a[href*="w3schools"] {
+    color: green;
+}
+
+.maiores-aliados li a[href*="developer"] {
+    color: black;
+}
+
+.maiores-aliados li a[href*="devdocs"] {
+    color: yellow;
+}
+
+.maiores-aliados li a[href*="trybe"] {
+    color: green;
+}
