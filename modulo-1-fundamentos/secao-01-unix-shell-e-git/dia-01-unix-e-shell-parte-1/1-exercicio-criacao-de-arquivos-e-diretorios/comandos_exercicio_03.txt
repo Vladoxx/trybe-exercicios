@@ -1,3 +1,0 @@
-    1  history -w
-    2  tail -4 skills.txt
-    3  history > exercicio_3.txt
