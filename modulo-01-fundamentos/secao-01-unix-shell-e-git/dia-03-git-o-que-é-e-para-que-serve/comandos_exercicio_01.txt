@@ -1,0 +1,42 @@
+    1  history -w
+    2  git checkout -b adiciona-readme
+    3  git add .
+    4  git status
+    5  git commit -m "Alterando o README"
+    6  git checkout main
+    7  git merge adiciona-readme
+    8  git checkout -b atualiza-readme
+    9  touch infos.txt
+   10  git status
+   11  git add .
+   12  git commit -m "Criação do arquivo info.txt"
+   13  git status
+   14  git reset --soft HEAD~1
+   15  git status
+   16  git add .
+   17  git status
+   18  git commit -m "Criação do arquivo info.txt e adição de informações"
+   19  git status
+   20  git checkout adiciona-infos
+   21  git checkout -b adiciona-infos
+   22  git status
+   23  git add .
+   24  git status
+   25  git commit -m "Como criar e enviar as informações de um repositório local a Github usando Git"
+   26  git checkout atualiza-readme
+   27  git merge adiciona-infos
+   28  git checkout main
+   29  git merge atualiza-readme
+   30  git status
+   31  git push
+   32  cd ..
+   33  ls
+   34  cd trybe-repositorio-teste/
+   35  git push
+   36  git status
+   37  git add .
+   38  git status
+   39  git commit -m "Repositório com informações sobre o versionamento de código"
+   40  git log
+   41  git push
+   42  history > comandos_exercicio_01.txt

@@ -1,0 +1,8 @@
+Internet
+Unix
+Bash
+Trybe
+Aprendendo
+Programação
+Terminal
+Shell
