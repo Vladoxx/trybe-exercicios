@@ -1,3 +1,4 @@
+// Exercicio 03
 const nota = 60
 
 if (nota >= 80) {
