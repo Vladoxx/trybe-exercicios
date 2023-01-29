@@ -16,4 +16,4 @@ for (let num = 2; num <= 50; num++) {
     }
 }
 
-// console.log(numPrimoMaior);
+console.log(numPrimoMaior);
